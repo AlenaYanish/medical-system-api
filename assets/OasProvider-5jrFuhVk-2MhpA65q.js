@@ -1,0 +1,2 @@
+import{c as u,s as v,o as f,d as n,e as l,v as m,f as j}from"./entry.client-E7ETWePr.js";const y=({basePath:a,version:s,config:e,client:o})=>{const p=u.useMemo(()=>{const t=v(e),r=Object.values(e.input).at(0),c=e.type==="file"?{type:e.type,input:s?e.input[s]:r}:{type:e.type,input:e.input};return{config:{...e,version:s??t.at(0),versions:Object.fromEntries(t.map(i=>[i,f(a,i)])),...c}}},[e,a,s]);return n.jsx(l,{value:p,children:n.jsx(m,{client:o,children:n.jsx(j,{})})})};export{y as OasProvider};
+//# sourceMappingURL=OasProvider-5jrFuhVk-2MhpA65q.js.map
